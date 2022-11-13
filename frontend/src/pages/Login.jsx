@@ -43,7 +43,7 @@ function Login() {
   }, [navigate]);
   return (
     <div className="flex items-center justify-center h-[50vh] max-w-xl mt-4 mx-auto">
-      <div className="w-full p-3">
+      <div className="w-full p-4">
         <form
           className="mt-5 p-4 bg-slate-50 shadow-md"
           onSubmit={handleSubmit}
