@@ -33,7 +33,10 @@ function Login() {
   };
 
   useEffect(() => {
-    if (localStorage.getItem("user")) {
+    if (
+      localStorage.getItem("user") ||
+      localStorage.getItem("user") === "null"
+    ) {
       localStorage.getItem("user");
       navigate("/");
     }
